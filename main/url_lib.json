@@ -1,0 +1,171 @@
+{
+  "Coinex": {
+    "url": "https://api.coinex.com/v1",
+    "all_tickers": "https://api.coinex.com/v1/market/ticker/all",
+    "all_name_tickers": "https://api.coinex.com/v1/market/list",
+    "ticker_price": "https://api.coinex.com/v1/market/ticker?market=",
+    "commission": "https://api.coinex.com/v1/market/info",
+    "coin": [
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC",
+      "BTCUSDC"
+    ]
+  },
+  "LBank": {
+    "url": "https://api.lbkex.com/",
+    "all_tickers": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=all",
+    "all_name_tickers": "https://api.lbkex.com//v2/currencyPairs.do",
+    "ticker_price": "https://api.lbkex.com/v2/ticker/24hr.do?symbol=",
+    "commission": "https://api.lbkex.com/v2/withdrawConfigs.do",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "MEXC": {
+    "url": "https://api.mexc.com",
+    "all_tickers": "https://api.mexc.com/api/v3/exchangeInfo",
+    "all_name_tickers": "https://api.mexc.com/api/v3/defaultSymbols",
+    "ticker_price": "https://api.mexc.cQom/api/v3/ticker/price?symbol=",
+    "tickers_price": "https://api.mexc.com/api/v3/ticker/price",
+    "commission": "https://api.mexc.com/api/v3/exchangeInfo?symbol=",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "BitMart": {
+    "url": "https://api-cloud.bitmart.com",
+    "all_tickers": "https://api-cloud.bitmart.com/spot/v2/ticker",
+    "all_name_tickers": "https://api-cloud.bitmart.com/spot/v1/symbols",
+    "ticker_price": "https://api-cloud.bitmart.com/spot/quotation/v3/ticker?symbol=",
+    "commission": "",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "Huobi": {
+    "url": "https://api.huobi.pro",
+    "all_tickers": "https://api.huobi.pro/market/tickers",
+    "all_name_tickers": "https://api.huobi.pro/v1/common/currencys",
+    "ticker_price": "https://api.huobi.pro/market/trade?symbol=",
+    "commission": "https://api.huobi.pro/v2/reference/currencies?currency=btctry",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "Binance": {
+    "url": "https://api.binance.com",
+    "all_tickers": "https://api.binance.com/api/v3/ticker/price",
+    "all_name_tickers": "https://api.binance.com/api/v3/exchangeInfo",
+    "ticker_price": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+    "commission_t_m": "https://api.binance.com/api/v3/account",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "Coinbase": {
+    "url": "https://api.coinbase.com",
+    "all_tickers": "https://api.pro.coinbase.com/products",
+    "all_name_tickers": "https://api.pro.coinbase.com/products",
+    "ticker_price": "https://api.exchange.coinbase.com/products/<product-id>/ticker",
+    "commission": "None",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "Kraken": {
+    "url": "https://api.kraken.com",
+    "all_tickers": "https://api.kraken.com/0/public/Ticker",
+    "all_name_tickers": "https://api.kraken.com/0/public/AssetPairs",
+    "ticker_price": "https://api.kraken.com/0/public/Ticker?pair=",
+    "commission": "https://api.kraken.com",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "OKX": {
+    "url": "https://www.okx.com",
+    "all_tickers": "https://www.okx.com/api/spot/v3/instruments/ticker",
+    "all_name_tickers": "https://www.okx.com/api/spot/v3/instruments",
+    "ticker_price": "https://www.okx.com/api/spot/v3/instruments/<instrument_id>/ticker",
+    "commission": "https://www.okx.com",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "KuCoin": {
+    "url": "https://api.kucoin.com",
+    "all_tickers": "https://api.kucoin.com/api/v1/market/allTickers",
+    "all_name_tickers": "https://api.kucoin.com/api/v1/symbols",
+    "ticker_price": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT",
+    "commission": "https://api.kucoin.com",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "Bitfinex": {
+    "url": "https://api.bitfinex.com",
+    "all_tickers": "https://api.bitfinex.com/v1/pubticker/all",
+    "all_name_tickers": "https://api.bitfinex.com/v1/symbols",
+    "ticker_price": "https://api.bitfinex.com/v1/pubticker/btcusd",
+    "commission": "https://api.bitfinex.com",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "Poloniex": {
+    "url": "https://poloniex.com",
+    "all_tickers": "https://poloniex.com/public?command=returnTicker",
+    "all_name_tickers": "https://poloniex.com",
+    "ticker_price": "https://poloniex.com",
+    "commission": "https://poloniex.com",
+    "coin": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}
